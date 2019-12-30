@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>kubernetes</title>
+	</head>
+	<body>
+		<h4>Kubernetes assignment</h4>
+		<form action="/submitted" method="post">
+			<input name="firstname" type="text" placeholder={{.FirstName}}>
+			<input name="lastname" type="text" placeholder={{.LastName}}>
+			<input type="submit">
+		</form>
+		<p>{{.HelloString}}</p>
+	</body>
+</html>
